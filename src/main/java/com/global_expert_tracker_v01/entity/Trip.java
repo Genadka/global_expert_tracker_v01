@@ -42,6 +42,6 @@ public class Trip {
      * Эксперт, связанный с поездкой.
      * Один эксперт может иметь несколько поездок.
      */
-    @OneToOne
+    @ManyToOne
     private Expert expert;
 }

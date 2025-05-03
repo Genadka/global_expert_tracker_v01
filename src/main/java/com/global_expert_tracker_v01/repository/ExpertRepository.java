@@ -9,4 +9,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface ExpertRepository extends JpaRepository<Expert, Long> {
+
+    //нужен лист экспертов которые свободны на запрашиваемую дату и которые свободны на предыдущий день
+    //и которые рядом с местом выезда
 }
